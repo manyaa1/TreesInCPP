@@ -1,6 +1,17 @@
 #include<iostream>
 using namespace std;
 
+// Tree is a non-linear data structure . In which each node can  have as many childern . Each node should have a pointer to its child nodes
+// Whereas, in Binary Tree , each node can have at MOST two childern
+// Searching techniques in tree are Breadth First Search(BFS) and Depth First Search(DFS)
+// Depth First search :  techniques are mainly of three types In-Order(LNR), Pre-Order(NLR) and Post-Order(LRN)
+//L-Left, R-Right, N-Node
+
+//output :
+//10 20 40 -1 -1 50 70 -1 -1 -1 30 -1 60 -1 -1(pre)
+//-1 40 -1 20 -1 70 -1 50 -1 10 -1 30 -1 60 -1(inorder)
+//-1 -1 40 -1 -1 70 -1 50 20 -1 -1 -1 60 30 10 (post)
+
 class TreeNode{
     public:
     
